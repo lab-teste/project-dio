@@ -15,5 +15,5 @@ for item in adm ven sec; do
   done
 done
 
-echo "mkdir /public" && echo "Criada a pasta /public"
-echo "chmod 777 /public" && echo "A permissão da pasta /public foi mudada para 777"
+mkdir /public && echo "Criada a pasta /public"
+chmod 777 /public && echo "A permissão da pasta /public foi mudada para 777"
